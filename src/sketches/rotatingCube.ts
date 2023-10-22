@@ -4,7 +4,7 @@ import { Sketch } from "@p5-wrapper/react"
 export const sketch: Sketch = (p5) => {
 
   p5.setup = () => {
-    p5.createCanvas(1000, 1000, 'webgl')
+    p5.createCanvas(800, 600, 'webgl')
   }
 
   p5.draw = () => {
